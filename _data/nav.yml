@@ -2,8 +2,10 @@
   url: /
 - title: People
   url: /people/
-- title: Research & Software
+- title: Research
   url: /research/
+- title: Software
+  url: /software/
 - title: Publications
   url: /publications/
 - title: Join
