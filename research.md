@@ -2,7 +2,7 @@
 layout: default
 title: Research
 ---
-# Research and software
+# Research
 
 We develop computational methods to understand biological heterogeneity in disease, using single-cell, spatial and multi-omics data. Most of our work is in oncology. We rely on close ties with experimental collaborators who profile large, high-dimensional datasets with state-of-the-art techniques, and we release our methods as open-source software.
 
