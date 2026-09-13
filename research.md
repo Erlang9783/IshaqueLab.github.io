@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Research & Software
+title: Research
 ---
 # Research and software
 
@@ -13,26 +13,6 @@ We develop computational methods to understand biological heterogeneity in disea
   <li><h3>{{ p.name }}</h3><p>{{ p.summary }}</p></li>
 {% endfor %}
 </ul>
-
-## Software
-
-This software is part of the approved de.NBI service [Spatial Transcriptomics Toolbox](https://github.com/ishaquelab). [Please help us improve by taking our short user survey](https://www.surveymonkey.de/r/denbi-service?sc=hd-hub&tool=spatialtranscriptomicstoolbox).
-
-<table>
-  <thead><tr><th>Tool</th><th>What it does</th><th>Code</th><th>Publication</th></tr></thead>
-  <tbody>
-  {% for s in site.data.software %}
-    <tr>
-      <td>{{ s.name }}</td>
-      <td>{{ s.summary }}</td>
-      <td>{% if s.repo != "" %}<a href="{{ s.repo }}">GitHub</a>{% endif %}</td>
-      <td>{% if s.doi != "" %}<a href="https://doi.org/{{ s.doi }}">{{ s.citation }}</a>{% endif %}</td>
-    </tr>
-  {% endfor %}
-  </tbody>
-</table>
-
-This software is part of the approved de.NBI service [Spatial Transcriptomics Toolbox](https://github.com/ishaquelab). [Please help us improve by taking our short user survey](https://www.surveymonkey.de/r/denbi-service?sc=hd-hub&tool=spatialtranscriptomicstoolbox).
 
 ## Community
 
