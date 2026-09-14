@@ -20,8 +20,8 @@
   related:
     - text: ovrlpy
       url: /software/
-    - text: spoQC
-      url: /software/
+    - text: Bolduan et al., Scientific Reports (2025)
+      url: /publications/#selected
 
 - id: masld
   name: Berlin-Dresden MASLD Joint Research Initiative (CRC/TRR 412)
@@ -42,7 +42,8 @@
     signalling networks, applying spatial algorithms and systems biology approaches to decode
     the metabolic and immune interactions that drive the initial stages of steatosis and
     fibrotic remodelling.
-  related: []
+  related:
+    - text: MASLD Single-Cell Atlas (coming soon!)
 
 - id: nurture
   name: NURTURE
@@ -63,8 +64,6 @@
     into clinical products.
   related:
     - text: Nonn et al., Hypertension (2025)
-      url: /publications/#selected
-    - text: Bolduan et al., Scientific Reports (2025)
       url: /publications/#selected
 
 - id: elixir
@@ -91,5 +90,5 @@
   related:
     - text: SACCELERATOR
       url: /software/
-    - text: openproblems.bio
-      url: https://openproblems.bio
+    - text: ELIXIR Single-Cell Omics Community
+      url: https://elixir-europe.org/communities/single-cell-omics
