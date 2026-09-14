@@ -1,0 +1,26 @@
+# Curated list shown above the live OpenAlex feed on /publications/.
+# Fill in [verify] fields. why: one sentence on what the paper contributes or why it is here.
+- citation: Sun et al., Nature Methods (2026)
+  title: "[verify title]"
+  doi: 10.1038/s41592-026-03194-8
+  why: Community benchmark of spatial clustering methods from SpaceHack; introduces SACCELERATOR.
+
+- citation: Tiesmeyer et al., Nature Biotechnology (2026)
+  title: "[verify title]"
+  doi: 10.1038/s41587-026-03004-8
+  why: ovrlpy shows that vertical cell overlap in imaging-based SRT is a pervasive, detectable source of error.
+
+- citation: Müller-Bötticher et al., Genome Biology (2025)
+  title: "[verify title]"
+  doi: 10.1186/s13059-025-03489-7
+  why: SpatialLeiden and multiSPAETI, spatially-aware clustering and dimensionality reduction that scale to millions of cells.
+
+- citation: Bolduan et al., Scientific Reports (2025)
+  title: "[verify title]"
+  doi: "[verify DOI]"
+  why: "[verify: one line linking this to NURTURE or placental biology]"
+
+- citation: Nonn et al., Hypertension (2025)
+  title: "[verify title]"
+  doi: "[verify DOI]"
+  why: "[verify: one line linking this to NURTURE or pre-eclampsia]"

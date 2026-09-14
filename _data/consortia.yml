@@ -1,0 +1,95 @@
+# Consortia and major projects, in display order on /research/#projects.
+# logo paths are optional; add the files to assets/img/consortia/ or delete the key.
+- id: mosaic
+  name: MOSAIC
+  url: https://www.mosaic-research.com/
+  logo: /assets/img/consortia/mosaic.png
+  about: >
+    The MOSAIC Consortium is building one of the largest spatial multi-omics datasets in
+    oncology. By combining large-scale spatial transcriptomics, single-cell 'omics and
+    artificial intelligence, the project maps tumour microenvironments to uncover new disease
+    biology, discover biomarkers and accelerate personalised medicine. It unites academic and
+    industry partners globally; Charité is a founding partner alongside Owkin, Gustave Roussy,
+    CHUV, Universitätsklinikum Erlangen and the University of Pittsburgh.
+  role: >
+    We direct the bioinformatics strategy across the consortium and manage the computational
+    infrastructure, ensuring standardised processing, integration and quality control of
+    spatial and single-cell datasets from multiple centres. We also lead the core computational
+    research projects on spatial biology and cellular interactions in non-small cell lung
+    cancer, bladder cancer, head and neck squamous cell carcinoma and glioblastoma.
+  related:
+    - text: ovrlpy
+      url: /software/
+    - text: spoQC
+      url: /software/
+
+- id: masld
+  name: Berlin-Dresden MASLD Joint Research Initiative (CRC/TRR 412)
+  url: https://berlindresdennafld.org/
+  logo: /assets/img/consortia/trr412.png
+  about: >
+    The Berlin-Dresden NAFLD/MASLD Joint Research Initiative (CRC/TRR 412) investigates
+    metabolic dysfunction-associated steatotic liver disease. The consortium aims to move
+    beyond one-size-fits-all treatment by uncovering the diverse pathophysiological mechanisms
+    that drive the disease, as a basis for tailored therapeutic strategies.
+  role: >
+    We are the central bioinformatics core for the initiative: we manage the computational
+    infrastructure, standardise data integration and establish analytical workflows for the
+    multi-omics datasets generated across all partner institutions. We lead the computational
+    construction of single-cell and spatial transcriptomic atlases of the liver, integrating
+    high-resolution spatial data to map tissue architecture and cellular states across disease
+    progression. Our own research projects model early disease dynamics and intercellular
+    signalling networks, applying spatial algorithms and systems biology approaches to decode
+    the metabolic and immune interactions that drive the initial stages of steatosis and
+    fibrotic remodelling.
+  related: []
+
+- id: nurture
+  name: NURTURE
+  url: https://nurture-health.ai/
+  logo: /assets/img/consortia/nurture.png
+  about: >
+    NURTURE is a Berlin Institute of Health Digital Health Accelerator (BIH DHA) project that
+    addresses the severe lack of preventative therapies for pregnancy complications. It targets
+    the root causes of conditions such as pre-eclampsia in order to prevent long-term
+    cardiovascular and metabolic consequences for mother and child.
+  role: >
+    We are building a predictive AI platform powered by a placental organoid multi-omics
+    pipeline. Single-cell technologies and lab-grown organoid models profile cellular responses
+    with high precision; by integrating in vitro organoid screening data with in vivo clinical
+    profiles, the platform overcomes traditional limitations of maternal pre-clinical trials and
+    identifies safe, effective compounds for pregnancy-related disease before animal testing.
+    NURTURE is our first step in translating computational research and AI platforms directly
+    into clinical products.
+  related:
+    - text: Nonn et al., Hypertension (2025)
+      url: /publications/#selected
+    - text: Bolduan et al., Scientific Reports (2025)
+      url: /publications/#selected
+
+- id: elixir
+  name: ELIXIR, ELIXIR Germany and de.NBI
+  url: https://elixir-europe.org/
+  logo: /assets/img/consortia/elixir.png
+  about: >
+    ELIXIR is a European intergovernmental organisation that coordinates life-science
+    resources, including databases, software tools and training materials, across member
+    states so that biological data are integrated and accessible. ELIXIR Germany is delivered
+    through de.NBI, the German Network for Bioinformatics Infrastructure.
+  role: >
+    We co-lead the ELIXIR Single-Cell Omics Community, which we co-founded; the community
+    establishes European computational standards, benchmarking protocols, data archival
+    frameworks and training resources for single-cell biology. We contribute to the ELIXIR
+    Spatial2Galaxy initiative, which builds a scalable, reproducible Galaxy platform for
+    processing and standardising spatial transcriptomics data. Within de.NBI and ELIXIR Germany
+    we organise and participate in the BioHackathon Germany infrastructure, driving open-source
+    development and FAIR interoperability for spatial 'omics. We founded and coordinate
+    SpaceHack, an international hackathon series that runs as an official de.NBI BioHackathon
+    Germany event and brings computational biologists together to develop best practices and
+    software infrastructure for spatial transcriptomics.
+  roles_line: "Naveed Ishaque: co-founder and co-lead, ELIXIR Single-Cell Omics Community; founder and lead coordinator, SpaceHack."
+  related:
+    - text: SACCELERATOR
+      url: /software/
+    - text: openproblems.bio
+      url: https://openproblems.bio
