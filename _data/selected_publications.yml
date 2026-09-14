@@ -1,26 +1,26 @@
 # Curated list shown above the live OpenAlex feed on /publications/.
 # Fill in [verify] fields. why: one sentence on what the paper contributes or why it is here.
 - citation: Sun et al., Nature Methods (2026)
-  title: "[verify title]"
+  title: Beyond benchmarking: an expert-guided consensus approach to spatially aware clustering
   doi: 10.1038/s41592-026-03194-8
   why: Community benchmark of spatial clustering methods from SpaceHack; introduces SACCELERATOR.
 
 - citation: Tiesmeyer et al., Nature Biotechnology (2026)
-  title: "[verify title]"
+  title: Identifying 3D signal overlaps in spatial transcriptomics data with ovrlpy
   doi: 10.1038/s41587-026-03004-8
   why: ovrlpy shows that vertical cell overlap in imaging-based SRT is a pervasive, detectable source of error.
 
 - citation: Müller-Bötticher et al., Genome Biology (2025)
-  title: "[verify title]"
+  title: SpatialLeiden: spatially aware Leiden clustering
   doi: 10.1186/s13059-025-03489-7
   why: SpatialLeiden and multiSPAETI, spatially-aware clustering and dimensionality reduction that scale to millions of cells.
 
 - citation: Bolduan et al., Scientific Reports (2025)
-  title: "[verify title]"
-  doi: "[verify DOI]"
-  why: "[verify: one line linking this to NURTURE or placental biology]"
+  title: Small intestinal neuroendocrine tumors lack early genomic drivers, acquire DNA repair defects and harbor hallmarks of low REST expression
+  doi: https://doi.org/10.1038/s41598-025-01912-4
+  why: Integrated whole-genome and transcriptomic profiling reveals that small intestinal neuroendocrine tumors originate from low-REST enterochromaffin cells without clear recurrent somatic driver mutations, with DNA repair defects driving later progression.
 
 - citation: Nonn et al., Hypertension (2025)
-  title: "[verify title]"
-  doi: "[verify DOI]"
-  why: "[verify: one line linking this to NURTURE or pre-eclampsia]"
+  title: Senescent Syncytiotrophoblast Secretion During Early Onset Preeclampsia
+  doi: https://doi.org/10.1161/HYPERTENSIONAHA.124.233
+  why: Single-nucleus and spatial profiling show that premature syncytiotrophoblast senescence releases SASP markers (PAI-1, activin A, GDF15) into maternal blood weeks before early-onset preeclampsia manifests, serving as early predictive biomarkers.
