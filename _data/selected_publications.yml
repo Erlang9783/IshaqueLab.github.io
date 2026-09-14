@@ -1,5 +1,4 @@
 # Curated list shown above the live OpenAlex feed on /publications/.
-# Fill in [verify] fields. why: one sentence on what the paper contributes or why it is here.
 - citation: Sun et al., Nature Methods (2026)
   title: Beyond benchmarking: an expert-guided consensus approach to spatially aware clustering
   doi: 10.1038/s41592-026-03194-8
