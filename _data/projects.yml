@@ -1,8 +1,41 @@
-- name: Spatially resolved transcriptomics
-  summary: Methods for imaging-based SRT that do not depend on cell segmentation, together with spatially-aware clustering, quality control and benchmarking.
-- name: Single-cell and multi-omics integration
-  summary: Linking molecular layers to resolve tumour and microenvironment heterogeneity, with a current focus on how the tumour immune microenvironment affects therapy response and survival.
-- name: AI for histology
-  summary: Predicting molecular readouts and immune states from routine H&E images using matched spatial transcriptomics as ground truth.
-- name: Community building and engagement
-  summary: We are actively involved in ELIXIR, ELIXIR-Germany and coordinate the SpaceHack hackathon series
+# Research themes. id is the anchor on /research/ (e.g. /research/#spatial-omics).
+- id: disease-biology
+  name: Human disease biology
+  short: Cellular ecosystems in cancer and metabolic disease, and the causal mechanisms behind them.
+  summary: >
+    We investigate the complex cellular ecosystems that underlie cancer and metabolic
+    disorders. Our aim is to uncover causal disease mechanisms and the therapeutic
+    vulnerabilities they expose, rather than to describe tissue composition alone.
+
+- id: spatial-omics
+  name: Single-cell and spatial 'omics
+  short: Computational frameworks that resolve heterogeneity and map tissue architecture at single-cell resolution.
+  summary: >
+    We apply and advance computational frameworks that resolve cellular heterogeneity,
+    integrate atlas-scale datasets and map tissue architecture at single-cell resolution.
+    Much of our methods work targets imaging-based spatial transcriptomics, where cell
+    segmentation and data quality remain unsolved problems.
+
+- id: image-analysis
+  name: Clinical image analysis
+  short: Multimodal AI linking routine histology to spatial 'omics, including 3D.
+  summary: >
+    We develop AI-driven multimodal learning pipelines for histological images that bridge
+    high-dimensional spatial 'omics with scalable clinical applications, with extensions
+    into 3D spatial biology.
+
+- id: methods
+  name: Bioinformatics methods
+  short: Open-source software, quality-control frameworks and scalable algorithms for multiplexed data.
+  summary: >
+    We build robust open-source software, quality-control frameworks and scalable algorithms
+    to process, integrate and analyse highly multiplexed biological data. Everything we
+    release is documented, tested and free to use.
+
+- id: translation
+  name: Translational medicine
+  short: Turning in silico discoveries and AI models into clinical products and diagnostics.
+  summary: >
+    We bridge computational biology and clinical practice by translating in silico
+    discoveries and AI predictive models into viable clinical products and actionable
+    diagnostic strategies.
