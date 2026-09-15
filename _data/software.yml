@@ -38,12 +38,13 @@
       doi: 10.1186/s13059-025-03489-7
       pypi: multispaeti
       license: MIT
-    - name: ovrlpy
+    - name: ovrl.py
       summary: Detection of cell overlap and vertical signal integrity in imaging-based SRT. Tiesmeyer et al., Nature Biotechnology (2026).
       repo: https://github.com/HiDiHlabs/ovrl.py
       docs: https://ovrlpy.readthedocs.io
       doi: 10.1038/s41587-026-03004-8
       pypi: ovrlpy
+      bioconda: ovrlpy
       license: MIT
     - name: clrmappy
       summary: Automatically colours high-dimensional data using dimensionality reduction.
