@@ -1,6 +1,6 @@
 # Curated list shown above the live OpenAlex feed on /publications/.
 - citation: Sun et al., Nature Methods (2026)
-  title: Beyond benchmarking: an expert-guided consensus approach to spatially aware clustering
+  title: "Beyond benchmarking: an expert-guided consensus approach to spatially aware clustering"
   doi: 10.1038/s41592-026-03194-8
   why: Community benchmark of spatial clustering methods from SpaceHack; introduces SACCELERATOR.
 
@@ -10,7 +10,7 @@
   why: ovrlpy shows that vertical cell overlap in imaging-based SRT is a pervasive, detectable source of error.
 
 - citation: Müller-Bötticher et al., Genome Biology (2025)
-  title: SpatialLeiden: spatially aware Leiden clustering
+  title: "SpatialLeiden: spatially aware Leiden clustering"
   doi: 10.1186/s13059-025-03489-7
   why: SpatialLeiden and multiSPAETI, spatially-aware clustering and dimensionality reduction that scale to millions of cells.
 
