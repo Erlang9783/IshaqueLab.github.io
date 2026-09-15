@@ -8,6 +8,7 @@
     {% if include.t.zenodo and include.t.zenodo != "" %}<a href="{{ include.t.zenodo }}" title="Archived release on Zenodo"><img src="{{ '/assets/img/zenodo-grey.svg' | relative_url }}" alt="Zenodo" width="18" height="18"></a>{% endif %}
     {% if include.t.pypi and include.t.pypi != "" %}<a href="https://pypi.org/project/{{ include.t.pypi }}/" title="Install from PyPI"><img src="{{ '/assets/img/pypi-grey.svg' | relative_url }}" alt="PyPI" width="18" height="18"></a>{% endif %}
     {% if include.t.conda and include.t.conda != "" %}<a href="https://anaconda.org/conda-forge/{{ include.t.conda }}" title="Install from conda-forge"><img src="{{ '/assets/img/condaforge-grey.svg' | relative_url }}" alt="conda-forge" width="18" height="18"></a>{% endif %}
+    {% if include.t.bioconda and include.t.bioconda != "" %}<a href="https://anaconda.org/channels/bioconda/packages/{{ include.t.conda }}/overview" title="Install from Bioconda"><img src="{{ '/assets/img/anaconda-grey.svg' | relative_url }}" alt="Bioconda" width="18" height="18"></a>{% endif %}
     {% if include.t.license and include.t.license != "" %}<span class="tool-license" title="Licence">{{ include.t.license }}</span>{% endif %}
   </span>
 </li>
