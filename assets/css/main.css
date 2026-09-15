@@ -108,13 +108,27 @@ td:first-child { font-weight: 600; white-space: nowrap; }
 .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
 .map { width: 100%; aspect-ratio: 4 / 3; border: 0; border-top: 4px solid var(--navy); }
 
-/* Footer */
-/* .site-footer { background: var(--navy); color: #DCE7F1; margin-top: 2rem; font-size: .95rem; }*/
-/* .site-footer a { color: #fff; }*/
-/* .footer-inner { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; padding: 2.5rem 0 1rem; }*/
-/* .footer-inner p { margin: 0; line-height: 1.7; }*/
-/* .footer-meta { padding: 0 0 1.5rem; color: var(--pale); font-size: .85rem; }*/
-/* .footer-meta a { color: var(--pale); }*/
+/* Research page */
+.toc { display: flex; flex-wrap: wrap; gap: .4rem 1rem; font-size: .92rem; margin: 1.5rem 0 2.5rem; padding: .75rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.toc span { color: var(--ink-2); }
+.toc a { text-decoration: none; color: var(--mid); }
+.toc a:hover { text-decoration: underline; }
+.theme { border-top: 1px solid var(--rule); padding: 1rem 0 .5rem; }
+.theme h3 { margin-top: 0; }
+.consortium { border-top: 2px solid var(--rule); padding: 1.5rem 0 1rem; }
+.consortium-head { display: flex; align-items: center; gap: 1.25rem; margin-bottom: .5rem; }
+.consortium-head img { height: 48px; width: auto; }
+.consortium-head h3 { margin: 0; }
+.consortium-head h3 a { color: var(--navy); text-decoration: none; }
+.consortium-head h3 a:hover { text-decoration: underline; }
+.consortium h4 { font-size: .85rem; letter-spacing: .06em; text-transform: uppercase; color: var(--light); margin: 1.25rem 0 .25rem; }
+.roles, .related { font-size: .92rem; color: var(--ink-2); }
+.areas h3 a { color: var(--navy); text-decoration: none; }
+.areas h3 a:hover { text-decoration: underline; }
+
+/* Publications page */
+.pubs.selected { margin-bottom: 1rem; }
+.pub-why { display: block; font-size: .95rem; margin-top: .3rem; }
 
 /* Footer */
 .site-footer { background: var(--navy); color: #DCE7F1; margin-top: 2rem; font-size: .95rem; }
