@@ -22,7 +22,7 @@
       docs: https://sainsc.readthedocs.io
       doi: 10.1002/smtd.202401123
       pypi: sainsc
-      conda: sainsc
+      bioconda: sainsc
       license: MIT
     - name: SpatialLeiden
       summary: Spatially-aware clustering via multiplex modularity optimisation. Müller-Bötticher et al., Genome Biology (2025).
@@ -30,7 +30,7 @@
       docs: https://spatialleiden.readthedocs.io
       doi: 10.1186/s13059-025-03489-7
       pypi: spatialleiden
-      conda: spatialleiden
+      bioconda: spatialleiden
       license: GPL-3.0
     - name: multiSPAETI
       summary: Dimensionality reduction that maximises the product of variance and Moran's I. Müller-Bötticher et al., Genome Biology (2025).
