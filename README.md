@@ -11,7 +11,7 @@ Other research groups are welcome to fork it as a starting point. The [Reusing t
 - **Seven pages**: Home, Research, Software, Publications, People, Join, Contact.
 - **Live publication list** pulled from [OpenAlex](https://openalex.org) by ORCID at page load. Five most recent on the home page; full list with a preprint toggle on the Publications page. No API key, no scheduled job, nothing to update when a paper comes out.
 - **Curated "selected publications"** with a one-line rationale each, above the live list.
-- **People, software, research themes and consortia** rendered from YAML, with icon links (email, GitHub, Google Scholar, ORCID for people; GitHub, docs, DOI, Zenodo, PyPI, Bioconda and a licence tag for software).
+- **People, software, research themes and consortia** rendered from YAML, with icon links (email, GitHub, Google Scholar, ORCID for people; GitHub, docs, DOI, Zenodo, PyPI, conda-forge, Bioconda and a licence tag for software).
 - **Footer** with profile icons and a row of institutional logos, all data-driven.
 - **Single stylesheet** (`assets/css/main.css`) with the palette defined as CSS variables at the top, so recolouring the whole site is a five-line edit.
 - Responsive, keyboard-accessible, respects `prefers-reduced-motion`, and uses one web font (IBM Plex Sans via Google Fonts; swap for a system stack to remove the external request).
@@ -85,7 +85,8 @@ Every key except `name` is optional; the template skips missing ones. Move someo
       doi: 10.1186/s13059-025-03489-7            # bare DOI, no https://doi.org/ prefix
       zenodo: https://doi.org/10.5281/zenodo.NNN # optional
       pypi: spatialleiden                        # package name; links to pypi.org
-      conda: spatialleiden                       # package name; links to Bioconda
+      conda: spatialleiden                       # package name; links to conda-forge
+      bioconda: spatialleiden                    # package name; links to Bioconda
       license: GPL-3.0                           # short SPDX identifier, shown as a tag
 ```
 
@@ -165,7 +166,7 @@ Icon SVGs come from [Simple Icons](https://simpleicons.org) (CC0) and [Feather](
 
 1. Fork or download the repository into a new repo named `<yourorg>.github.io` (user or organisation site) or any name (project site; then set `baseurl` in `_config.yml` to `/<reponame>`).
 2. Edit `_config.yml`: `title`, `tagline`, `description`, `url`, `orcid`, `scholar`, `github_org`, `email`, `openalex_mailto`.
-3. Replace the logo files in `assets/img/` and the path in `_includes/header.html`; add a `favicon.png`.
+3. Replace the logo files in `assets/img/` and the path in `_includes/header.html`. Regenerate `favicon.png` and `apple-touch-icon.png` from your own mark (a square crop of the logo symbol without the wordmark, exported at 512 and 180 px).
 4. Replace the palette in `assets/css/main.css`.
 5. Rewrite the `.md` pages. `contact.md` also contains an OpenStreetMap embed with hard-coded coordinates.
 6. Replace the contents of every file in `_data/`. Delete `consortia.yml` entries and the corresponding section in `research.md` if you have none.
